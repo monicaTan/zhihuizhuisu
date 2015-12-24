@@ -1,0 +1,80 @@
+@charset "utf-8";
+.wrap{ max-width: 640px; margin: 0 auto; background-color: #f2f2f2;}
+.header-inner{ background-color: #72b744;}
+.container{ background-color: #fff; margin-bottom: 10px; border-bottom: 1px solid #dddddd;}
+
+.header-inner p,
+.top-row { font-size: 14px; color: #fff;}
+
+.top-row > em{ font-weight: bold; font-style: normal; font-size: 24px;}
+
+.top-row em,
+.top-row span{ display: inline-block;}
+.top-row > span { float: right;}
+.top-row > span > em{ font-weight: normal; margin-left: 20px; line-height: 30px;}
+
+.space10{ padding: 10px;}
+
+/*timeline
+---------------------------------------------------------------------------------*/
+.icon-min{ display: inline-block; width: 30px; height: 30px; background: transparent url('../images/icon-all.png') no-repeat scroll -5px -4px / 240px auto;}
+.icon-circle{ background-position: -5px -226px;}
+.icon-seed{ background-position: -45px -226px;}
+.icon-flower{ background-position: -85px -226px;}
+.icon-diyao{ background-position:  -85px -226px;}
+.icon-fruit{ background-position: -125px -226px;}
+.icon-jiaoshui{ background-position: -45px -281px;}
+.icon-shifei{ background-position: -85px -281px;}
+.icon-richang{ background-position: -125px -281px;}
+.icon-difei{ background-position: -125px -331px;}
+.icon-dingzhi{ background-position: -165px -281px;}
+.icon-di{ background-position: -45px -332px;}
+.icon-diaoyang{ background-position: -85px -331px;}
+.icon-zhuifei{ background-position: -165px -331px;}
+.icon-zhibao{ background-position: -165px -226px;}
+
+.timeline{ height: 100%; position: relative;}
+.timeline-line{ width: 2px; height: 100%; position: absolute; left: 26%; z-index: 0; margin-left: -16px; -webkit-border-radius:2px; -moz-border-radius:4px; background-color: #72b744;}
+.timeline-content-inner{ padding: 10px; line-height: 20px; background-color: #f6f6f6; font-size: 12px;}
+.timeline-content-inner p{line-height: 0;}
+.timeline-content-inner span{ display: block; margin-right: 5px; white-space: nowrap; color: #999; line-height: 2;}
+.timeline-content-inner .dotted{ display: inline-block; margin-right: 5px;}
+
+.timeline-container{ position: relative; z-index: 10;}
+.timeline-time,
+.timeline-icon,
+.timeline-content{ float: left;}
+
+.timeline-row{ position: relative; margin: 10px 0 20px;}
+.timeline-time{ width: 26%; color:  #72b744; font-size: 12px;}
+.timeline-icon{position: absolute; left: 26%; margin-left: -30px;}
+.timeline-content{ padding-left: 4%; width: 74%;}
+.timeline-content h2{ font-size: 15px; color:  #72b744; margin-top: 5px;}
+.timeline-content h4{ font-size: 14px; margin-bottom: 10px;}
+
+
+/*detection
+---------------------------------------------------------------------------------*/
+.module-title{ line-height: 1; padding: 20px 10px 10px; font-size: 15px; font-weight: normal; border-bottom: 1px solid #dddddd;}
+.list-item{ list-style: none; color: #666;}
+.list-item li { padding: 10px 0; border-bottom: 1px solid #eeeeee;}
+.list-item li:last-child { border-bottom: 0;}
+.list-item li h4{ font-weight: normal; color: #333; font-size: 16px;}
+.list-item li em{ display: inline-block; margin-left: 20px;color: #72b744;}
+.list-item li img{ width: 70px; height: 70px; float: left;}
+.list-item li .text-info{ width: 100%; padding-left: 80px; font-size: 14px; line-height: 1.5;}
+
+
+
+/*natural conditions
+---------------------------------------------------------------------------------*/
+.list-conditions li{ float: left; width: 33.33%; text-align: center; padding: 20px 0;}
+.list-conditions li p{ font-size: 12px; padding-top: 10px;}
+.title-group span{ font-size: 15px;}
+.title-group{line-height: 28px; padding: 10px 0;}
+.title-group .btn-group{ font-size: 0; line-height: 1; float: right;}
+.title-group .btn-group a{ font-size: 12px; color: #999999; display: inline-block; margin-left: 5px; border: 1px solid #dddddd; -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px; padding: 7px 10px;}
+.title-group .btn-group .active{ background-color: #72b744; color: #fff; border: 1px solid #72b744;}
+.chart-module > p{ text-align: right;}
+.chart-module {}
+.module1{ padding-bottom: 25px;}
